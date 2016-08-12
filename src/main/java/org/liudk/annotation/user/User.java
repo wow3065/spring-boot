@@ -16,6 +16,8 @@ public class User implements Serializable{
 
     private String userage;
 
+    private String password;
+
     public String getId() {
         return id;
     }
@@ -38,5 +40,13 @@ public class User implements Serializable{
 
     public void setUserage(String userage) {
         this.userage = userage;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }
